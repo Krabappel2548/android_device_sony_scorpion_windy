@@ -25,12 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit from castor_windy device
-$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
+# Inherit from scorpion_windy device
+$(call inherit-product, device/sony/scorpion_windy/scorpion_windy.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_castor_windy
-PRODUCT_DEVICE := castor_windy
+PRODUCT_NAME := full_scorpion_windy
+PRODUCT_DEVICE := scorpion_windy
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia Z3 Tablet Compact

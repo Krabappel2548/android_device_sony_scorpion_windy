@@ -19,16 +19,16 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 #-include vendor/sony/sirius/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sgp611,castor_windy
+TARGET_OTA_ASSERT_DEVICE := sgp611,scorpion_windy
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion_windy/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/scorpion_windy/bluetooth
 
-BOARD_HARDWARE_CLASS += device/sony/castor_windy/cmhw
+BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/cmhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := aosp_shinano_castor_windy_defconfig
+TARGET_KERNEL_CONFIG := cm_shinano_scorpion_windy_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
@@ -36,4 +36,4 @@ BOARD_VOLD_MAX_PARTITIONS := 25
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656259072
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/sony/castor_windy
+TARGET_RELEASETOOLS_EXTENSIONS := device/sony/scorpion_windy
