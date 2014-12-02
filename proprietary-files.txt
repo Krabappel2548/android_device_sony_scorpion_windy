@@ -34,7 +34,7 @@ vendor/camera/product_CACAO.dat
 vendor/camera/SEM02BN1
 vendor/camera/SEM02BN1_IMX132.dat
 vendor/camera/SEM08BS2
-vendor/camera/SEM08BS2_DW97198.dat
+vendor/camera/SEM08BS2_DW9719.dat
 vendor/camera/SEM08BS2_IMX134.dat
 vendor/camera/SOI08BS2
 vendor/camera/SOI08BS2_BU64291GWZ.dat
